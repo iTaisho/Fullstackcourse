@@ -1,0 +1,262 @@
+html {
+
+
+    font-size: 62.5%;
+
+
+
+}
+
+
+
+body{
+
+    font-size: 16px;
+
+}
+
+
+
+
+.ejerciciogrid div{
+    border: 1px solid black;
+
+
+
+
+}
+
+.ejerciciogrid{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 200fr 150fr  ;
+    grid-template-rows: 5fr 15fr 16fr 7fr   ;
+}
+
+
+
+.ejerciciorepeat{
+
+    border: 1px solid red;
+}
+
+
+.ejerciciorepeat{
+
+    display: grid;
+
+    height: 300px;
+
+    /* grid-template-columns: 2fr 2fr primero fila luego colmunsnas ;
+
+ 
+    grid-template-rows: 1fr 1fr; para simplificarlo */
+
+    grid: 2fr 2fr / 1fr 1fr ;
+}
+/* .mediqua{
+
+    height: 500px;
+    border: 2px solid  yellow;
+    text-align: center;
+    
+
+    
+
+    
+}
+
+@media (max-width:350px)  {
+    .mediqua{  background-color: green;}
+}
+
+
+@media (max-width:616px)and (min-width:350px) {
+        .mediqua{  background-color: red;}
+}
+
+        @media (max-width:933px)and (min-width:616px) {
+            .mediqua{  background-color: blue;}}
+
+
+
+            @media (max-width:1131px) and (min-width:933px)  {
+                .mediaqua{
+            
+                    background-color:yellow ;
+                }
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+.porcentajes{
+
+    display: flex;
+    
+}
+
+
+
+
+.section1 {
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+.section2 {
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+
+.section3 {
+
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+.ejemplos{
+display: block;
+flex-direction: row;
+
+}
+
+.ejemplo1{
+
+    height: 100px;
+    border: 2px solid blue;
+    text-align: center;
+    background-color: yellow;
+    
+
+}
+
+.ejemplo2{
+
+
+    height: 200px;
+    border: 2px solid  yellow;
+    text-align: center;
+    background-color: blue;
+
+
+}
+
+
+
+
+.ejemplo3{
+
+
+    display: flex;
+
+
+}
+
+
+.primerdiv{
+
+    display: flex;
+
+    width: 40%;
+    background-color: orange;
+
+
+}
+
+.segundodiv{
+
+
+    display: flex;
+
+
+    width: 60%;
+    
+
+}
+
+.segundodiv .parrafo1 { 
+
+width: 30px;
+background-color: bisque;
+
+}
+
+.segundodiv .parrafo2{
+
+    width: 70%;
+    background-color: aqua;
+} */
+
+
+
+
+.ejercicioAR{
+
+    height: 500px;
+    /* background-color:blue ; */
+    position: relative;
+
+    background: rgba(147,206,222,1);
+background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+
+    /* background-image: linear-gradient( to right, red 50% , orange 70%); */
+}
+
+
+.ejercicioAR div{
+
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+
+box-shadow: 2px 22px 43px 22px rgba(0,0,0,0.75);
+}
